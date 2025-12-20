@@ -98,7 +98,7 @@ CATEGORICAL_NA_NOT_ALLOWED = [
 ]
 
 
-PIPELINE_NAME = "lasso_regression"
+PIPELINE_NAME = "regression_model"
 PIPELINE_SAVE_FILE = f"{PIPELINE_NAME}_output_v"
 
 # used for differential testing

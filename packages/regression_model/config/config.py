@@ -90,3 +90,7 @@ NUMERICAL_NA_NOT_ALLOWED = [
 CATEGORICAL_NA_NOT_ALLOWED = [
     feature for feature in CATEGORICAL_VARS if feature not in CATEGORICAL_VARS_WITH_NA
 ]
+
+# model / pipeline
+PIPELINE_NAME = "regression_model"
+PIPELINE_FILE_NAME = f"{PIPELINE_NAME}.pkl"
